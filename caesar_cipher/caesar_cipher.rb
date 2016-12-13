@@ -1,7 +1,7 @@
 # > caesar_cipher("What a string!", 5)
 # => "Bmfy f xywnsl!"
 def caesar_cipher(string, key)
-    alphabet = ('a'..'z').to_a * 2  #wrap z to a
+    alphabet = ('a'..'z')  #wrap z to a
     letters = string.split("")
     # p letters
 
